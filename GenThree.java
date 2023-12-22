@@ -7,7 +7,7 @@ public class GenThree {
         int num1= (int) ((b - a)* Math.random() ) + a;
         int num2= (int) ((b - a)* Math.random() ) + a;
         int num3= (int) ((b - a)* Math.random() ) + a;
-        int min= Math.min( num1, Math.min(num2, num3));
+        int min= Math.min(num1, Math.min(num2, num3));
 
         System.out.println(num1);
         System.out.println(num2);
